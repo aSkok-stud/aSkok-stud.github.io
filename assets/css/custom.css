@@ -1,5 +1,5 @@
-h1, h2, h3, h4, h5, h6
-{
+/* LD9 */
+h1, h2, h3, h4, h5, h6 {
     font-family: "Google Sans", sans-serif;
     color: #071199;
     font-optical-sizing: auto;
@@ -7,8 +7,7 @@ h1, h2, h3, h4, h5, h6
     font-style: bold;
 }
 
-p
-{
+p {
     font-family: "Google Sans", sans-serif;
     color: #000000;
     font-optical-sizing: auto;
@@ -16,18 +15,15 @@ p
     font-style: italic;
 }
 
-button:hover
-{
+button:hover {
     color: #52a5f3;
 }
 
-button:active
-{
+button:active {
     color: #c837d8;
 }
 
-a
-{
+a {
     font-family: "Roboto", sans-serif;
     color: #008112;
     font-optical-sizing: auto;
@@ -35,34 +31,29 @@ a
     font-style: normal;
 }
 
-#about, #resume, #portfolio
-{
+#about, #resume, #portfolio {
     padding: 20px;
     margin: 50px 30px;
 }
 
-section
-{
+section {
     border: 2px solid #071199;
     border-radius: 10px;
 }
 
-.progress-bar
-{
+.progress-bar {
     background: linear-gradient(to right, #510094, #d711ff);
     height: 20px;
     border-radius: 10px;
 }
 
-.progress-bar-wrap
-{
+.progress-bar-wrap {
     background-color: #e0e0e0;
     height: 20px;
     border-radius: 10px;
 }
 
-button[type=submit]
-{
+button[type=submit] {
     background-color: #071199;
     color: #ffffff;
     border: 5px solid #5e64ad;
@@ -71,45 +62,64 @@ button[type=submit]
     border-radius: 50px;
 }
 
-.list
-{
+.list {
     padding-left: 20px;
 }
 
-.ulist
-{
+.ulist {
     list-style-type: "> ";
 }
 
-.olist
-{
+.olist {
     list-style-type: upper-roman;
 }
 
-.nested-olist
-{
+.nested-olist {
     list-style-type: lower-roman;
     font-style: italic;
 }
 
-.table
-{
+.table {
     border: 5px solid #071199;
 }
 
-.table th
-{
+.table th {
     background-color: #071199;
     color: #ffffff;
 }
 
-.table th, .table td
-{
+.table th, .table td {
     padding: 10px;
     text-align: center;
 }
 
-.table-even-row td
-{
+.table-even-row td {
     background-color: #e0e0e0;
+}
+
+/* LD10 */
+
+.kanban-top {
+    background-color: #ffffff;
+    border: 2px solid #585858;
+    box-shadow: 0px 0px 5px #a7a2a2;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.kanban-top-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kanban-top-info p {
+    font-style: normal;
+    font-size: 12px;
+    color: #585858;
+}
+
+.kanban-block {
+    border-radius: 10px;
+    padding: 10px;
+    /* color: #0099ffbd; */
 }
