@@ -37,15 +37,14 @@ a
 
 #about, #resume, #portfolio
 {
-    padding: 20px 0;
-    margin: 0 auto;
+    padding: 20px;
+    margin: 50px 30px;
 }
 
-.container
+section
 {
     border: 2px solid #071199;
     border-radius: 10px;
-    padding: 50px 50px;
 }
 
 .progress-bar
@@ -90,6 +89,7 @@ button[type=submit]
 .nested-olist
 {
     list-style-type: lower-roman;
+    font-style: italic;
 }
 
 .table
